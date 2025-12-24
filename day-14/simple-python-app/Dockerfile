@@ -1,5 +1,6 @@
 # Base image
-FROM python:3.8
+FROM python:3.8 
+# this is the recommended python version
 
 # Set the working directory inside the container
 WORKDIR /app
